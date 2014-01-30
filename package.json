@@ -1,0 +1,27 @@
+{
+  "name": "borschik-tech-cleancss",
+  "version": "0.0.0",
+  "description": "borschik CSS tech based on cleancss",
+  "main": "index.js",
+  "dependencies": {
+    "clean-css": "2.0.7"
+  },
+  "peerDependencies": {
+    "borschik": "0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doochik/borschik-tech-cleancss.git"
+  },
+  "keywords": [
+    "borschik",
+    "css",
+    "cleancss"
+  ],
+  "author": "Aleksei Androsov <doochik@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doochik/borschik-tech-cleancss/issues"
+  },
+  "homepage": "https://github.com/doochik/borschik-tech-cleancss"
+}
