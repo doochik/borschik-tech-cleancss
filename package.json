@@ -4,10 +4,10 @@
   "description": "borschik CSS tech based on CleanCSS",
   "main": "index.js",
   "dependencies": {
-    "clean-css": "2.0.7"
+    "clean-css": "2.1.8"
   },
   "peerDependencies": {
-    "borschik": "0.4.1"
+    "borschik": ">=1.0.2"
   },
   "repository": {
     "type": "git",

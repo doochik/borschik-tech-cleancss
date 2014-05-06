@@ -13,3 +13,16 @@ $ npm install borschik borschik-tech-cleancss
 $ ./node_modules/.bin/borschik -t cleancss -i test.css
 ```
 
+Default CleanCSS options is
+```json
+{
+    "noRebase": false,
+    "processImport": false
+}
+```
+
+You can extend it with `--tech-options`
+```sh
+$ ./node_modules/.bin/borschik -t cleancss -i test.css --tech-options='{"cleancss":{"noAdvanced":true,"compatibility":true}}'
+```
+
