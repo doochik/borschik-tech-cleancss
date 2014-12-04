@@ -6,7 +6,7 @@ exports.Tech = cssbase.Tech.inherit({
         var CleanCSS = require('clean-css');
 
         var CleanCSSOptions = this.opts.techOptions.cleancss || {};
-        CleanCSSOptions.noRebase = typeof CleanCSSOptions.noRebase === 'undefined' ? false : CleanCSSOptions.noRebase;
+        CleanCSSOptions.rebase = typeof CleanCSSOptions.noRebase === 'undefined' ? true : false;
         CleanCSSOptions.processImport = typeof CleanCSSOptions.processImport === 'undefined' ? false : CleanCSSOptions.processImport;
 
         return new CleanCSS(CleanCSSOptions).minify(content);
