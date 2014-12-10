@@ -4,7 +4,7 @@
   "description": "borschik CSS tech based on CleanCSS",
   "main": "index.js",
   "dependencies": {
-    "clean-css": "git://github.com/jakubpawlowicz/clean-css#7ea106e"
+    "clean-css": "3.0.7"
   },
   "peerDependencies": {
     "borschik": ">=1.0.5"

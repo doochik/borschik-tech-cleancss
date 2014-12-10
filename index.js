@@ -9,7 +9,7 @@ exports.Tech = cssbase.Tech.inherit({
         CleanCSSOptions.rebase = typeof CleanCSSOptions.noRebase === 'undefined' ? true : false;
         CleanCSSOptions.processImport = typeof CleanCSSOptions.processImport === 'undefined' ? false : CleanCSSOptions.processImport;
 
-        return new CleanCSS(CleanCSSOptions).minify(content);
+        return new CleanCSS(CleanCSSOptions).minify(content).styles;
     }
 
 });
