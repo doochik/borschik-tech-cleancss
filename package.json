@@ -1,6 +1,6 @@
 {
   "name": "borschik-tech-cleancss",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "borschik CSS tech based on CleanCSS",
   "main": "index.js",
   "dependencies": {
