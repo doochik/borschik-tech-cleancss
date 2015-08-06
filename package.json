@@ -4,7 +4,7 @@
   "description": "borschik CSS tech based on CleanCSS",
   "main": "index.js",
   "dependencies": {
-    "clean-css": "3.0.10"
+    "clean-css": "3.3.8"
   },
   "peerDependencies": {
     "borschik": ">=1.0.5"
