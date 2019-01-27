@@ -13,7 +13,7 @@ $ npm install borschik borschik-tech-cleancss
 $ ./node_modules/.bin/borschik -t cleancss -i test.css
 ```
 
-You can pass options to `clean-css` it with `--tech-options`
+You can pass options to `clean-css` with `--tech-options`
 ```sh
 $ ./node_modules/.bin/borschik -t cleancss -i test.css --tech-options='{"cleancss":{"noAdvanced":true,"compatibility":true}}'
 ```
